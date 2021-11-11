@@ -117,6 +117,7 @@ jobs:
           ls -la binaries
           ls -la binaries/darwin
           mv binaries/darwin/BsEmotionPpx.exe exe/bs-emotion-ppx-darwin-x64.exe
+          cp exe/bs-emotion-ppx-darwin-x64.exe exe/bs-emotion-ppx-darwin-arm64.exe
           mv binaries/windows/BsEmotionPpx.exe exe/bs-emotion-ppx-win-x64.exe
           mv binaries/linux/BsEmotionPpx.exe exe/bs-emotion-ppx-linux-x64.exe
 
